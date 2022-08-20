@@ -23,9 +23,6 @@ class MainActivity : AppCompatActivity() {
         findViewById<Button>(R.id.button2).setOnClickListener{
             Log.i("Yuyou", "Tapped on Second Button")
             findViewById<TextView>(R.id.textView).setText(findViewById<EditText>(R.id.editTextTextPersonName).text)
-            if(findViewById<TextView>(R.id.textView).text == " "){
-                findViewById<TextView>(R.id.textView).setText("Hello from Yuyou!") ;
-            }
         }
 
         findViewById<Button>(R.id.button3).setOnClickListener{
